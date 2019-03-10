@@ -60,26 +60,26 @@ class Home extends Component {
     tabView:LIST_VIEW,
   }
   }
-  changeView = ()=>{
-    this.setState({
-     view:viewName
-    }
-    )
-  }
-   changeDate = ()=>{
+  // changeView = ()=>{
+  //   this.setState({
+  //    view:viewName
+  //   }
+  //   )
+  // }
+  //  changeDate = ()=>{
 
-   }
+  //  }
    
-   modifyItem =()=>{
+  //  modifyItem =()=>{
 
-   }
+  //  }
    
-   createItem = ()=>{
+  //  createItem = ()=>{
 
-   }
-   deleteItem =()=>{
+  //  }
+  //  deleteItem =()=>{
      
-   }
+  //  }
 
   render() {
     const {item,currentDate,tabView} = this.state
